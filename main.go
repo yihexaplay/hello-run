@@ -14,7 +14,7 @@ func main() {
 	}
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "Hello from Cloud Run!")
+		fmt.Fprintln(w, "Hello from Cloud Run! xx")
 	})
 
 	log.Printf("Listening on :%s", port)
